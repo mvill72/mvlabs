@@ -1,0 +1,17 @@
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "MV Labs • Own Your Story. Forge Your Future.",
+  description: "Neurodivergent-led Web3 studio returning sovereignty through Concert Vault, Life Forge, and Sovereign Hosting.",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body className="antialiased">
+        {children}
+      </body>
+    </html>
+  );
+}
