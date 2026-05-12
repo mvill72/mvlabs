@@ -1,0 +1,6 @@
+# Version managers — never track these
+.nvm
+.pyenv
+node_modules
+.DS_Store
+*.log
